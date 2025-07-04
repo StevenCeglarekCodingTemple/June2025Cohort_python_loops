@@ -14,9 +14,9 @@ while True:
         if char.isdigit():
             has_number = True
             break
-        # if char in "0123456789":
-        #     has_number = True
-        #     break
+        if char in "0123456789":
+            has_number = True
+            break
     
     if not has_number:
         print("Password must contain at least one number!")
